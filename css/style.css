@@ -1,0 +1,159 @@
+body{
+	margin:0px;
+	/*
+
+    background-color:gray;
+	background-image:url(../images/bg.jpg);
+	background-repeat: repeat;
+
+	*/
+	background:darkgray url(../images/bg.png) repeat;
+	background-size:100px;
+	font-size:12px;
+}
+ul{
+	padding:0;
+
+}
+h1,h6{
+	margin:0;
+}
+/* Common classes */
+.fullWidth{
+	width:100%;
+}
+.mainWidth{
+	width:1000px;
+	margin:0px auto;
+}
+.colorGray{
+	background:rgb(14, 131, 209);
+}
+.colorBlack{
+	background:rgb(209, 14, 66);
+}
+.colorWhite{
+	background:white;
+}
+.verticalSpacer{
+	height:10px;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+
+/* Main Classes*/
+/* Top Navigation Section*/
+.topNavSection{
+/*	position:fixed;
+	top:0;
+	left:0;
+	z-index:1;*/
+}
+
+.innerNav{
+	height:30px;
+	color:white;
+
+}
+.innerLeft{
+	width:300px;
+	float:left;
+}
+.innerLeft span{
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	font-size:.9em;
+	line-height: 30px;
+
+}
+.innerRight{
+	float:right;
+}
+.innerRight span{
+	font-size:0.9em;
+	line-height: 30px;
+	border-right:1px solid white;
+	padding:9px 11px;
+	font-weight: bold;
+}
+.innerRight span img{
+	width:10px;
+	margin-right:5px;
+}
+
+/* Slider Section*/
+
+.sliderSection{
+	height:300px;
+	border-radius:10px 10px 0px 0px;
+	/*background:url(../images/slider-bg.jpg) ;
+	background-size:100%;
+	background-position: center -93px;*/
+	/*overflow-x: hidden;
+	overflow-y: scroll;*/
+	overflow: hidden;
+	position:relative;
+
+}
+.sliderSection img{
+	width:100%;
+	margin-top:-91px;
+}
+.sliderNav{
+	background:#34373d;
+	width:100%;
+	padding:0px 10px;
+	height:50px;
+	color:white;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.sliderInnerNav{
+	margin-right:15px;
+
+}
+.sliderInnerNav ul{
+	margin:0;
+
+
+}
+.sliderInnerNav ul li{
+	display: inline-block;
+	margin-right:-5px;
+	background:#34373d;
+	padding:0px 20px;
+	border-right:1px solid #585d66;
+	border-left:1px solid #585d66;
+	text-align: center;
+}
+.sliderInnerNav ul li i{
+	margin-top:10px;
+}
+.sliderInnerNav span{
+	display: block;
+	line-height:23px;
+	word-spacing: 5px;
+}
+.buttonsSection{
+	height:20px;
+	text-align: center;
+	color:white;
+}
+.newsSection{
+	height:300px;
+}
+.testimonialSection{
+	height:75px;
+}
+.footerSection{
+	height:200px;
+}
+.bottomNavSection{
+	height:30px;
+}
+
