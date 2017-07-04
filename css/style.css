@@ -145,7 +145,37 @@ h1,h6{
 	color:white;
 }
 .newsSection{
-	height:300px;
+	width:980px;
+	padding:10px;
+	border-radius:10px;
+}
+.newsSection h2{
+	text-indent:5px;
+}
+.newsItem{
+	width:calc(25% - 12.5px);
+	margin:5px;
+	display: inline-block;
+}
+.newsItem p{
+	color:darkgray;
+}
+.newsItem button{
+	border-radius:10px;
+	border:none;
+	color:white;
+	background:#46494f;
+	padding:8px 15px;
+	word-spacing: 5px;
+}
+.imgFrame{
+	height:150px;
+	
+}
+.imgFrame img{
+	width:calc(100% - 8px);
+	padding:3px;
+	border:1px solid gray;
 }
 .testimonialSection{
 	height:75px;
